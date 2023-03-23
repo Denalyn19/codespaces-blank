@@ -343,6 +343,7 @@ class Delivor(Person):
             self.__items = [Package()]
             
     def _str_(self):
-        print("*ID= ", self.__id, "\n*FECHA= ", self.__date, "\n*TIEMPO DE ENTREGA= ", self.__date, "\N*INFORMACION DEL QUE ENVIA= " ,self.__sender, "\n*INFORMACION DEL QUE LO RECIBE= ", self.__receiver)
+        print("*ID= ", self.__id, "\n*FECHA= ", self.__date, "\n*TIEMPO DE ENTREGA= ", self.__date, 
+              "\N*INFORMACION DEL QUE ENVIA= " ,self.__sender, "\n*INFORMACION DEL QUE LO RECIBE= ", self.__receiver)
         
         
